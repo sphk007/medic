@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalmanagement.purchaseController">
+   <children>
+      <Label layoutX="193.0" layoutY="22.0" text="ENTER YOUR DETAILS" textFill="#04a6eb">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="164.0" text="AGE" textFill="#f5f7f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="206.0" text="PHONE NO" textFill="#f3f7f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="120.0" text="EMAIL" textFill="#f5f7f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="81.0" text="NAME" textFill="#e5ecee">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="244.0" prefHeight="29.0" prefWidth="133.0" text="MEDICINE NAME" textFill="#f5f7f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customername" layoutX="269.0" layoutY="79.0" promptText="Name" />
+      <TextField fx:id="customeremail" layoutX="269.0" layoutY="120.0" promptText="Email" />
+      <TextField fx:id="customerage" layoutX="269.0" layoutY="161.0" promptText="Age" />
+      <TextField fx:id="customerphone" layoutX="269.0" layoutY="203.0" promptText="Phone No" />
+      <TextField fx:id="medicinename" layoutX="269.0" layoutY="246.0" promptText="Medicine Name" />
+      <Button fx:id="submit" layoutX="317.0" layoutY="301.0" mnemonicParsing="false" onAction="#submitOnAction" prefHeight="29.0" prefWidth="63.0" style="-fx-background-color: #FFF;" text="SUBMIT" />
+      <Button fx:id="backtoproduct" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#backOnAction" style="-fx-background-color: #FFF;" text="BACK" />
+      <Label fx:id="messageaftersubmit" layoutX="71.0" layoutY="51.0" prefHeight="17.0" prefWidth="450.0" />
+   </children>
+</AnchorPane>

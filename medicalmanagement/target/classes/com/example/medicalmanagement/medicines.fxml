@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalmanagement.medicinesController">
+   <children>
+      <Label layoutX="222.0" layoutY="25.0" text="Medicines" textFill="#00bbff">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="paracetamol" layoutX="110.0" layoutY="111.0" mnemonicParsing="false" onAction="#paraOnAction" prefHeight="26.0" prefWidth="139.0" text="Paracetamol Tablets" />
+      <Label layoutX="70.0" layoutY="33.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="146.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="34.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="88.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="149.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="205.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="264.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="92.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="263.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="207.0" prefHeight="17.0" prefWidth="14.0" text="." textFill="#f2eaea">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Button layoutX="110.0" layoutY="165.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Cloxacillin Tablet" />
+      <Button layoutX="110.0" layoutY="224.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Ranitidine Tablets" />
+      <Button layoutX="110.0" layoutY="279.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Analgesic Tablets" />
+      <Button layoutX="110.0" layoutY="338.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Albendazole Tablets" />
+      <Button layoutX="395.0" layoutY="111.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Artesunate Tablets" />
+      <Button layoutX="395.0" layoutY="165.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Tenvir Tablets" />
+      <Button layoutX="395.0" layoutY="224.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Vitamins Tablets" />
+      <Button layoutX="395.0" layoutY="279.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Levamisole Tablets" />
+      <Button layoutX="395.0" layoutY="338.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Revolade Tablet" />
+   </children>
+</AnchorPane>

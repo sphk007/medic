@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalmanagement.HelloController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="239.0" style="-fx-background-color: #263F73;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="23.0" layoutY="165.0" prefHeight="23.0" prefWidth="201.0" text="JAVA MEDICALS" textFill="#f6f8f8">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="76.0" layoutY="26.0" prefHeight="17.0" prefWidth="181.0" text="WELCOME!">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="118.0" text="USERNAME :" />
+            <Label layoutX="41.0" layoutY="184.0" text="PASSWORD : " />
+            <TextField fx:id="usernametextfield" layoutX="129.0" layoutY="114.0" promptText="username" />
+            <Button fx:id="loginbutton" layoutX="68.0" layoutY="297.0" mnemonicParsing="false" onAction="#loginbuttonOnAction" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: #0e8a2d;" text="LOGIN" textFill="#131414" />
+            <Button fx:id="cancelbutton" layoutX="205.0" layoutY="297.0" mnemonicParsing="false" onAction="#cancelbuttonOnAction" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: #e40707;" text="CANCEL" textFill="#1e1d1d" />
+            <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="57.0" layoutY="72.0" prefHeight="18.0" prefWidth="219.0" textFill="#e40606" />
+            <PasswordField fx:id="passwordpasswordfield" layoutX="129.0" layoutY="180.0" promptText="password" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
